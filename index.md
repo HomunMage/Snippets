@@ -1,6 +1,3 @@
----
-layout: board
----
 
 Welcome to the Homunculus Magic!
 
@@ -15,3 +12,7 @@ Sharing various AI-related ideas and topics, including:
 
 Please head to the [🎯Training Ground](./Training) to understand our categorization system.
 
+
+<br>
+
+{%- include myrss.html -%}

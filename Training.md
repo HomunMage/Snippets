@@ -1,7 +1,7 @@
 ---
 title: 🎯練兵場
 
-layout: board
+
 ---
 
 
