@@ -1,6 +1,6 @@
 # Welcome to Jekyll!
 #
-# This config file is meant for settings that affect your whole Blog, values
+# This config file is meant for settings that affect your whole blog, values
 # which you are expected to set up once and rarely edit after that. If you find
 # yourself editing this file very often, consider using Jekyll's data files
 # feature for the data you need to update frequently.
@@ -18,25 +18,26 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: ShinraMage
-email: shinra@posetmage.com
-url: https://shinra.posetmage.com # the base hostname & protocol for your site, e.g. http://example.com
-author: ShinraMage
+title: AI-Mage
+email: aimageguild@gmail.com
+title: AI-Mage
+url: https://ai.posetmage.com/ # the base hostname & protocol for your site, e.g. http://example.com
+slogan: Might and Magic
 
-repository: ShinraMage/Snippets
 description: Snippets
-baseurl: /Snippets
+baseurl: /Snippets # the subpath of your site, e.g. /blog
+repository: aimageguild/Snippets
 
 defaults:
   -
     scope:
       path: ""
     values:
-      layout: "page/blog/blog"
-
+      layout: "board"
+      
 feed:
   output: true
-  
+
 # Build settings
 remote_theme: jekyll/minima
 
