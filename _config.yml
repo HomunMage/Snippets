@@ -27,6 +27,13 @@ repository: ShinraMage/Blog
 description: Blog
 baseurl: /Blog
 
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "page/blog/blog"
+
 feed:
   output: true
   
